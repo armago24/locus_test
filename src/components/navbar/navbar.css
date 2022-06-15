@@ -1,0 +1,40 @@
+.locus__navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 6rem;
+    background-color: #F4F6F8;
+
+}
+
+.locus__navbar-links {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+.locus__navbar-links_logo {
+    margin-right: 2 rem;
+}
+
+.locus__navbar-links_logo img {
+    height: 64px ;
+    width: 64px;
+}
+
+.locus__navbar-links_container {
+    display: flex;
+    flex-direction: row;
+}
+
+.locus__navbar-links_container p,
+.locus__navbar-menu_container p {
+    color: #000;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+
+}
